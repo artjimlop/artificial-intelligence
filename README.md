@@ -5,26 +5,25 @@ Solution of an Artificial Intelligence problem by using a genetic algorithm base
 
 --- GOOGLE TRANSLATE
 
-Finding the best set of rules to classify a training set
-It is a difficult task. In this paper the implementacióon Python calls a genetic algorithm that returns the best set of rules obtained after applying the algorithm. To do this, the student must take the system representacióon and crossover operators and mutation especicados in [1] with the following considerations:
+Finding the best set of rules to classify a training set.
+It is a difficult task. In this paper, the implementation Python calls is a genetic algorithm that returns the best set of rules obtained after applying the algorithm. To do this, the student must take the system representation and crossover operators and mutation specifically in [1] with the following considerations:
 Just consider databases with discrete (or discretized) values.
-Not consider attributes with numerical values??.
+Don't consider attributes with numerical values.
 A chromosome representing a set of rules.
 Unlike the basic model seen in class, the chromosomes of a population
 may have different length according to the number of rules shown. If a rule is represented by n bits (0 or 1) representing a chromosome rules shall length k * n k.
 To simplify the work, we will only consider learning problems where
-clasicacion has only two possible values ??(as in Table 1) and use the
-hypothesis closed to represent the set of rules the world. Therefore, to
-Unlike [1], we will not use one bit to represent clasicacion.
+classifications have only two possible values (as in Table 1) and use the
+closed world hypothesis to represent the set of rules. Therefore, doing so differently [1], we will not use one bit to represent classifications.
 
 [1] Kenneth A. De Jong, William M. Spears, and Diana F. Gordon. Using genetic algo-
 rithms for concept learning.
 Machine Learning, 13: 161 {188, 1993}
 
---- Español
+--- EspaÃ±ol
 
 Encontrar el mejor conjunto de reglas que clasifique un conjunto de entrenamiento
-es una tarea difícil. En el presente trabajo se pide la implementacióon en Python de un algoritmo genético que devuelva el mejor conjunto de reglas obtenido tras la aplicación del algoritmo. Para ello, el alumno debe tomar el sistema de representacióon y los operadores de cruce y mutacion especicados en [1] con las siguientes consideraciones:
+es una tarea difÃ­cil. En el presente trabajo se pide la implementaciÃ³on en Python de un algoritmo genÃ©tico que devuelva el mejor conjunto de reglas obtenido tras la aplicaciÃ³n del algoritmo. Para ello, el alumno debe tomar el sistema de representaciÃ³on y los operadores de cruce y mutacion especicados en [1] con las siguientes consideraciones:
 Solo consideraremos bases de datos con valores discretos (o discretizados). 
 No consideraremos atributos con valores numericos.
 Un cromosoma representara un conjunto de reglas.
